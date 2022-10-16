@@ -9,6 +9,7 @@ const store = configureStore({
     icecream: icecreamReducer,
     user: userReducer,
   },
+  devTools:false
 });
 
 export default store;
